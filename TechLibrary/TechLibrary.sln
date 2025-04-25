@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLibrary.Api", "TechLibrary.Api\TechLibrary.Api.csproj", "{99072068-562A-4036-B55E-232B9A629FA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLibrary.Communication", "TechLibrary.Communication\TechLibrary.Communication.csproj", "{AA3DF4A1-EA95-4470-A6A0-0C564157D2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechLibrary.Exception", "TechLibrary.Exception\TechLibrary.Exception.csproj", "{CF60E0C6-73D1-4A98-85FD-DC8DDCF0F673}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AA3DF4A1-EA95-4470-A6A0-0C564157D2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3DF4A1-EA95-4470-A6A0-0C564157D2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3DF4A1-EA95-4470-A6A0-0C564157D2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF60E0C6-73D1-4A98-85FD-DC8DDCF0F673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF60E0C6-73D1-4A98-85FD-DC8DDCF0F673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF60E0C6-73D1-4A98-85FD-DC8DDCF0F673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF60E0C6-73D1-4A98-85FD-DC8DDCF0F673}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
