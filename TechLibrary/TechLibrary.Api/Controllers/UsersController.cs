@@ -23,7 +23,7 @@ public class UsersController : ControllerBase
 
             return Created(string.Empty, response);
         }
-        catch (TechLabraryException ex)
+        catch (TechLibraryException ex)
         {
             return BadRequest(new ResponseErrorMessagesJson
             {

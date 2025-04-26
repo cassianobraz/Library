@@ -2,7 +2,7 @@
 
 namespace TechLibrary.Exception;
 
-public class ErrorOnValidationException : TechLabraryException
+public class ErrorOnValidationException : TechLibraryException
 {
     private readonly List<string> _errors;
     public ErrorOnValidationException(List<string> errorMessages)
